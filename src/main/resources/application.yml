@@ -1,0 +1,15 @@
+server:
+  port: 8180
+
+spring:
+  application:
+    # 广告投放系统子模块
+    name: my-rpc
+  jackson:
+    default-property-inclusion: non_null
+
+zookeeper:
+  zkAddress: "127.0.0.1:2181"
+
+rpcserver:
+  serviceAddress: "127.0.0.1:8000"
